@@ -68,4 +68,27 @@
         height: 20px;
         width: 20px;
     }
+    caption.main-table__first-caption {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 22px;
+        align-self: start;
+        justify-items: center;
+        color: #fff;
+    }
+    p.button__show-more {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        height: 22.09px;
+        left: 44.28%;
+        right: 48.76%;
+        top: calc(50% - 22.09px/2 + 219.98px);
+    }
+    p.button__show-more::after {
+        
+    }
  } 
