@@ -93,7 +93,14 @@
         right: 48.76%;
         top: calc(50% - 22.09px/2 + 219.98px);
     }
-    form.form_search {
-
+    input.form__search {
+        width: 204px;
+        height: 38px;
+        left: 636px;
+        top: 319px;
+        font-weight: bold;
+        color: #FFFFFF;
+        background: #1ED760;
+        border-radius: 42px;
     }
  }
