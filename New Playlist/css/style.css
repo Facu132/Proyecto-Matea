@@ -93,14 +93,18 @@
         right: 48.76%;
         top: calc(50% - 22.09px/2 + 219.98px);
     }
-    input.form__search {
-        width: 204px;
-        height: 38px;
-        left: 636px;
-        top: 319px;
+    form.form__search {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+    }
+    input.input__search {
+        width: 418px;
+        height: 37px;
         font-weight: bold;
-        color: #FFFFFF;
-        background: #1ED760;
-        border-radius: 42px;
+        color: rgba(31, 32, 65, 0.25);
+        background: #fff;
+        border-radius: 33px;
     }
  }
