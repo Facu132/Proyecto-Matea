@@ -13,6 +13,41 @@
         color: #fff;
         background-color: #000;
     }
+    div.main__header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 30px;
+    }
+    header {
+        border: 1px solid #fff;
+        border-top: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        border-color: rgba(101, 101, 101, 0.33);
+    }
+    h1.header__title, .col-xl-auto {
+        font-family: Righteous;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 40px;
+    }
+    h1.header__user {
+        display: flex;
+        justify-content: flex-end;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 24px;
+        width: 87px;
+        height: 30px;
+        padding-top: 15px;
+    }
+    h1.header__title::before {
+        content: url(https://cdn.discordapp.com/attachments/713453989517066250/716024824106844291/logo_header_blanco.png);
+    }
     table.main-table, table.col-xl-9 {        
         position: absolute;
         display: flex;
@@ -22,7 +57,7 @@
         width: 858px;
         height: 51px;
         left: 200px;
-        top: 327px;
+        top: 425px;
         font-family: Montserrat;
         font-style: normal;
         font-weight: 500;
@@ -94,30 +129,24 @@
         top: calc(50% - 22.09px/2 + 219.98px);
     }
     input.input__search, input.col-xl-2 {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
         position: absolute;
-        top: 25px;
-        left: 100px;
+        padding: 12px 20px 12px 40px;
+        top: 210px;
+        left: 570px;
         width: 418px;
-        height: 37px;
+        height: 45px;
         font-weight: bold;
         color: rgba(31, 32, 65, 0.25);
         background: #fff;
         border-radius: 33px;
+        resize: none;
     }
     input.input__playlist-name {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
         position: absolute;
-        width: 292px;
-        height: 30px;
-        left: 430px;
-        top: 109px;
+        width: 330px;
+        height: 40px;
+        left: 615px;
+        top: 150px;
         
         font-family: Montserrat;
         font-style: normal;
@@ -126,11 +155,10 @@
         line-height: 46px;
         background-color: #000;
         color: #FFFFFF;
-        border: 1px solid #fff;
+        border-bottom: 1px solid #fff;
         border-top: 0px;
         border-left: 0px;
         border-right: 0px;
         padding-bottom: 10px;
-        padding-top: 10px;
     }
  }
