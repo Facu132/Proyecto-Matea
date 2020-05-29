@@ -1,0 +1,164 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    body.body {
+        color: #fff;
+        background-color: #000;
+    }
+    div.main__header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 30px;
+    }
+    header {
+        border: 1px solid #fff;
+        border-top: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        border-color: rgba(101, 101, 101, 0.33);
+    }
+    h1.header__title, .col-xl-auto {
+        font-family: Righteous;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 40px;
+    }
+    h1.header__user {
+        display: flex;
+        justify-content: flex-end;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 24px;
+        width: 87px;
+        height: 30px;
+        padding-top: 15px;
+    }
+    h1.header__title::before {
+        content: url(https://cdn.discordapp.com/attachments/713453989517066250/716024824106844291/logo_header_blanco.png);
+    }
+    table.main-table, table.col-xl-9 {        
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;        
+        width: 858px;
+        height: 51px;
+        left: 200px;
+        top: 425px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 16px;
+    }
+    td#first-td {
+        padding-left: 20px;
+    }
+    table, td, tr {
+        padding-left: 75px;
+    }
+    tr.second-tr {
+        background: #282828;
+        border-radius: 10px solid red;
+    }
+    tr.fourth-tr {
+        background: #282828;
+    }
+    td.first-tr {
+        padding-bottom: 15px;
+    }
+    td.second-tr {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    td.third-tr {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    td.fourth-tr {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    td.fifth-tr {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    td.second-td {
+        opacity: 0.5;
+    }
+    img.main-table__plus-icon {
+        height: 20px;
+        width: 20px;
+    }
+    caption.main-table__first-caption, caption.col-xl-3 {
+        position: absolute;
+        left: 75px;
+        top: -145px;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 22px;
+        align-self: start;
+        justify-content: center;
+        color: #fff;
+    }
+    p.button__show-more {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        height: 22.09px;
+        left: 44.28%;
+        right: 48.76%;
+        top: calc(50% - 22.09px/2 + 219.98px);
+    }
+    input.input__search, input.col-xl-2 {
+        position: absolute;
+        padding: 12px 20px 12px 40px;
+        top: 210px;
+        left: 570px;
+        width: 418px;
+        height: 45px;
+        font-weight: bold;
+        color: rgba(31, 32, 65, 0.25);
+        background: #fff;
+        border-radius: 33px;
+        resize: none;
+    }
+    input.input__playlist-name {
+        position: absolute;
+        width: 330px;
+        height: 40px;
+        left: 615px;
+        top: 150px;
+        
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 38px;
+        line-height: 46px;
+        background-color: #000;
+        color: #FFFFFF;
+        border-bottom: 1px solid #fff;
+        border-top: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        padding-bottom: 10px;
+    }
+ }
