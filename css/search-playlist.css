@@ -16,4 +16,41 @@
         display: flex;
         flex-direction: row;
     }
+        /* Header */
+        div.main__header {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 30px;
+        }
+        header {
+            border: 1px solid #fff;
+            border-top: 0px;
+            border-left: 0px;
+            border-right: 0px;
+            border-color: rgba(101, 101, 101, 0.33);
+        }
+        h1.header__title, .col-xl-auto {
+            font-family: Righteous;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 32px;
+            line-height: 40px;
+        }
+        h1.header__user, .col-xl-auto {
+            display: flex;
+            justify-content: flex-end;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 24px;
+            width: 87px;
+            height: 30px;
+            padding-top: 15px;
+        }
+        h1.header__title::before {
+            content: url(https://cdn.discordapp.com/attachments/713453989517066250/716024824106844291/logo_header_blanco.png);
+        }
+        /* Fin Header */
 }
