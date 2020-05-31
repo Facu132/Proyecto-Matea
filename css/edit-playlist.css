@@ -9,10 +9,10 @@
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
-    body.body {
+        body.body {
         color: #fff;
         background-color: #000;
-    }
+        }
         /* Header */
         div.main__header {
             display: flex;
