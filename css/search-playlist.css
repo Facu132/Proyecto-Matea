@@ -9,12 +9,13 @@
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
-    .col-xl-8{
-        
-    }
-    div>.search__music-img , .col-xl-8{
-        display: flex;
+    .container{
         flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .search__music-img{
+        width: 100px;
+        height: 100px;
     }
         /* Header */
         div.main__header {
@@ -52,5 +53,5 @@
         h1.header__title::before {
             content: url(https://cdn.discordapp.com/attachments/713453989517066250/716024824106844291/logo_header_blanco.png);
         }
-        /* Fin Header */
+        /* End Header */
 }
