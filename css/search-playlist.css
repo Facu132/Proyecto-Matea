@@ -9,7 +9,7 @@
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
-
+        /* Search Playlist */
         /* Header */
         div.main__header {
             display: flex;
@@ -47,8 +47,6 @@
             content: url(https://cdn.discordapp.com/attachments/713453989517066250/716024824106844291/logo_header_blanco.png);
         }
         /* End Header */
-
-        /* Search Playlist */
         .container{
             flex-direction: row;
             flex-wrap: nowrap;

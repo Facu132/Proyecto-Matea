@@ -9,6 +9,7 @@
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
+        /* Edit Playlist */
         body.body {
         color: #fff;
         background-color: #000;
@@ -183,4 +184,5 @@
             content: url(https://cdn.discordapp.com/attachments/713453989517066250/716031399882260500/arrow_down1.png);
         }
         /* Fin Show More*/
+        /* End Edit Playlist */
 }

@@ -9,6 +9,7 @@
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {  
+    /* Home */
     body.body {
         color: #fff;
         background-color: #000;
@@ -150,4 +151,5 @@
         width: 100%;
         position: absolute;
     }
+    /* End Home */
 }
