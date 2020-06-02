@@ -39,7 +39,7 @@
             font-size: 32px;
             line-height: 40px;
         }
-        h1.header__register {
+        a.header__register {
             font-family: Montserrat;
             font-style: normal;
             font-weight: normal;
@@ -51,7 +51,7 @@
             position: absolute;
             right: 300px;
         }
-        h1.header__login, .col-xl-auto {
+        a.header__login, .col-xl-auto {
             font-family: Montserrat;
             font-style: normal;
             font-weight: bold;
@@ -115,6 +115,12 @@
         line-height: 61px;
         padding-top: 80px;
     }
+    div.home__input {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
     input.input__search {
         background: #FFFFFF;
         border: 1px solid rgba(31, 32, 65, 0.25);
@@ -127,16 +133,10 @@
         font-weight: normal;
         font-size: 22px;
         line-height: 24px;
-        position: absolute;
-        left: 433px;
-        top: 310px;
     }
     input.input__button {
-        position: absolute;
         width: 348px;
         height: 57px;
-        left: 633px;
-        top: 450px;
         background: #1ED760;
         border-radius: 42px;
         font-family: Montserrat;
