@@ -34,10 +34,10 @@
         font-weight: bold;
     }
 .form__register-top{
+    display: flex;
+    justify-content: center;
     width: 342px;
     height: 16px;
-    left: 405px;
-    top: 118px;
     font-size: 18px;
     line-height: 22px;
     color: #000000;
@@ -155,10 +155,10 @@
     border: 1px solid rgba(101, 101, 101, 0.33);
 }
 .form__register-line-bottom{
+    display: flex;
+    justify-content: center;
     width: 185px;
     height: 16px;
-    left: 484px;
-    top: 782px;
     font-size: 18px;
     line-height: 22px;
     color: #000000;

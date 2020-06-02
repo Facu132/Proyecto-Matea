@@ -29,8 +29,8 @@ div>h1{
     line-height: 22px;
 }
 div>h1.form__login-top{   
-    left: 451px;
-    top: 117px;  
+    display: flex;
+    justify-content: center;
     color: #000000;
 }
 div>h1.form__login-bottom{
@@ -80,10 +80,10 @@ div>h1.form__login-bottom{
     border: 1px solid rgba(101, 101, 101, 0.33);
 }
 .form__login-line-button{
+    display: flex;
+    justify-content: center;
     width: 185px;
     height: 16px;
-    left: 484px;
-    top: 484px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
@@ -91,7 +91,7 @@ div>h1.form__login-bottom{
     line-height: 22px;
     color: #000000;
 }
-.form__login-register-button{
+.from__login-register{
     width: 204px;
     height: 38px;
     left: 470px;
