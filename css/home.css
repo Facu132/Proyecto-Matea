@@ -63,6 +63,10 @@
             content: url(https://cdn.discordapp.com/attachments/713453989517066250/716024824106844291/logo_header_blanco.png);
         }
         /* Fin Header */
+        .home__background-image {
+            justify-content: center;
+            align-items: center;
+        }
         /* Footer */
         div.main__footer {
             display: flex;
@@ -70,14 +74,10 @@
             justify-content: space-between;
             padding: 30px;
         }
-        p#footer__border {
+        .footer__border {
             position: absolute;
             bottom: 40px;
-            border: 1px solid rgba(101, 101, 101, 0.33);
-            color: #000;
-            border-bottom: 0px;
-            border-left: 0px;
-            border-right: 0px;
+            border: 1px solid #777;
         }
         h1.footer__designed-in {
             font-family: Montserrat;
