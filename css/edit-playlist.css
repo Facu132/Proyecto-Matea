@@ -34,7 +34,6 @@
             font-weight: normal;
             font-size: 32px;
             line-height: 40px;
-            text-decoration: black;
         }
         h1.header__user, .col-xl-auto {
             display: flex;
