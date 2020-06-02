@@ -74,11 +74,8 @@
             justify-content: space-between;
             padding: 30px;
         }
-        div.footer__border {
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-end;
-            border: 1px solid #777;
+        footer {
+            border: 1px solid #fff;
         }
         h1.footer__designed-in {
             font-family: Montserrat;
