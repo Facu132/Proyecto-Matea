@@ -62,15 +62,29 @@
             justify-content: center;
             position: absolute;
         }
+        div>.row {
+            justify-content: space-between;
+        }
         .container{
             flex-direction: row;
             flex-wrap: nowrap;
         }
+        p.search__music-img {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 10px;
+            line-height: 10px;
+        }
         .search__music-img{
-            width: 100px;
-            height: 100px;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 14px;
+            width: 110px;
+            height: 110px;
             margin: 20px;
-            padding: 5px;
         }
         .search__secion-browser{
             width: 753px;
