@@ -64,16 +64,14 @@
             content: url(https://cdn.discordapp.com/attachments/713453989517066250/716024824106844291/logo_header_blanco.png);
         }
         /* Fin Header */
-        .home__background-image {
-            justify-content: center;
-            align-items: center;
-        }
+        
         /* Footer */
         div.main__footer {
             display: flex;
             flex-direction: row;
             justify-content: space-between;
             padding: 30px;
+            background-color: #000;
         }
         p#footer__border {
             position: absolute;

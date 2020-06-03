@@ -13,32 +13,35 @@
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,700;1,300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="main__header">
-            <a href="home.html"><h1 class="header__title col-xl-auto">Sprintify</h1></a>
+    <div class="col-xs- col-sm-">
+        <header>
+            <div class="main__header">
+                <img class="header__title" src="img/logo/logo_header_negro_small.png" alt="logo sprintify">
+                <a href="home.html"><h1 class="header__title col-xl-auto">Sprintify</h1></a>
+            </div>
+        </header>
+        <div class="login__box">
+            <br><br>
+            <h1 class="form__login-top">Para continuar, inicia sesión</h1>
+            <form class="form__login" action="">
+                <input class="form__login-username" type="text" placeholder="Correo electrónico o nombre de usuario">
+                <br>
+                <br>
+                <input class="form__login-pasword" type="password" placeholder="Contraseña">
+            </form>
+            <br>
+            <form action="">
+                <input class="form__login-button-remember-me" type="radio" type="radio" value="Recuérdame">Recuerdame
+                <a href="home.html"><input class="form__login-button-login" type="button" value="Iniciar sesión"></a>
+            </form>
+            <br><br>
+            <h1 class="form__login-bootom">¿Has olvidado la contraseña?</h1>
+            <br><br>
+            <div class="form__login-line"></div>
+            <br>
+            <h1 class="form__login-line-button">¿No tienes cuenta?</h1>
+            <a href="register.html"><input class="from__login-register" type="button" value="Registrate"></a>
         </div>
-    </header>
-    <div>
-        <br><br>
-        <h1 class="form__login-top">Para continuar, inicia sesión</h1>
-        <form class="form__login" action="">
-            <input class="form__login-username" type="text" placeholder="Correo electrónico o nombre de usuario">
-            <br>
-            <br>
-            <input class="form__login-pasword" type="password" placeholder="Contraseña">
-        </form>
-        <br>
-        <form action="">
-            <input class="form__login-button-remember-me" type="radio" type="radio" value="Recuérdame">Recuerdame
-            <a href="home.html"><input class="form__login-button-login" type="button" value="Iniciar sesión"></a>
-        </form>
-        <br><br>
-        <h1 class="form__login-bootom">¿Has olvidado la contraseña?</h1>
-        <br><br>
-        <div class="form__login-line"></div>
-        <br>
-        <h1 class="form__login-line-button">¿No tienes cuenta?</h1>
-        <a href="register.html"><input class="from__login-register" type="button" value="Registrate"></a>
     </div>
 </body>
 </html>
