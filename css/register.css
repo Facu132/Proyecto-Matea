@@ -225,6 +225,7 @@ h1.footer__powered-by::after {
     content: url(https://cdn.discordapp.com/attachments/712706917365186570/716040727544725504/spotify_logo3.png);
     border-top: 1px solid rgba(101, 101, 101, 0.33);
     padding-top: 18px;
+}
 /* End Footer */
 /* End Form Register */
 }
