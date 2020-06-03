@@ -1,0 +1,152 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    /* Home */
+    body.body {
+        color: #fff;
+        background-color: #000;
+    }
+        /* Header */
+        div.main__header {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 30px;
+        }
+        div>a {
+            display: block;
+            color: #FFFFFF;
+            font-weight: bold;
+        }
+        header {
+            border: 1px solid #fff;
+            border-top: 0px;
+            border-left: 0px;
+            border-right: 0px;
+            border-color: rgba(101, 101, 101, 0.33);
+        }
+        h1.header__title {
+            font-family: Righteous;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 32px;
+            line-height: 40px;
+        }
+        a.header__register {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 24px;
+            width: 87px;
+            height: 30px;
+            padding-top: 15px;
+            position: absolute;
+            right: 300px;
+        }
+        a.header__login, .col-xl-auto {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 24px;
+            padding-top: 15px;
+        }
+        h1.header__title::before {
+            content: url(https://cdn.discordapp.com/attachments/713453989517066250/716024824106844291/logo_header_blanco.png);
+        }
+        /* Fin Header */
+        .home__background-image {
+            justify-content: center;
+            align-items: center;
+        }
+        /* Footer */
+        div.main__footer {
+            display: flex;
+            justify-content: space-between;
+            padding: 30px;
+        }
+        footer {
+            border: 1px solid #fff;
+        }
+        h1.footer__designed-in {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 24px;
+            position: absolute;
+            bottom: 30px;
+        }
+        h1.footer__powered-by {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 24px;
+            position: absolute;
+            bottom: 30px;
+            right: 40px;
+        }
+        h1.footer__powered-by::after {
+            padding-left: 15px;
+            content: url(https://cdn.discordapp.com/attachments/712706917365186570/716040727544725504/spotify_logo3.png);
+            padding-top: 18px;
+        }
+        /* Fin Footer */
+    h1.main__home-title {
+        display: flex;
+        justify-content: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 50px;
+        line-height: 61px;
+        padding-top: 80px;
+    }
+    div.home__input {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
+    input.input__search {
+        background: #FFFFFF;
+        border: 1px solid rgba(31, 32, 65, 0.25);
+        box-sizing: border-box;
+        border-radius: 33px;
+        width: 738px;
+        height: 57px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 24px;
+    }
+    input.input__button {
+        width: 348px;
+        height: 57px;
+        background: #1ED760;
+        border-radius: 42px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 27px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    .footer__border{
+        width: 100%;
+        position: absolute;
+    }
+    /* End Home */
+}
