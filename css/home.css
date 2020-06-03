@@ -71,11 +71,18 @@
         /* Footer */
         div.main__footer {
             display: flex;
+            flex-direction: row;
             justify-content: space-between;
             padding: 30px;
         }
-        footer {
-            border: 1px solid #fff;
+        p#footer__border {
+            position: absolute;
+            bottom: 40px;
+            border: 1px solid rgba(101, 101, 101, 0.33);
+            color: #000;
+            border-bottom: 0px;
+            border-left: 0px;
+            border-right: 0px;
         }
         h1.footer__designed-in {
             font-family: Montserrat;
@@ -99,6 +106,7 @@
         h1.footer__powered-by::after {
             padding-left: 15px;
             content: url(https://cdn.discordapp.com/attachments/712706917365186570/716040727544725504/spotify_logo3.png);
+            border-top: 1px solid rgba(101, 101, 101, 0.33);
             padding-top: 18px;
         }
         /* Fin Footer */
@@ -149,4 +157,4 @@
         position: absolute;
     }
     /* End Home */
-}
+    }

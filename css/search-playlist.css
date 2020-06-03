@@ -11,6 +11,15 @@
 @media (min-width: 1200px) { 
         /* Search Playlist */
         /* Header */
+        body {
+            background-color: #000;
+        }
+        h1,h3 {
+            color: #FFF;
+        }
+        p {
+            color: #777;
+        }
         div.main__header {
             display: flex;
             flex-direction: row;
@@ -28,6 +37,7 @@
             font-family: Righteous;
             font-style: normal;
             font-weight: normal;
+            color: rgb(255, 255, 255);
             font-size: 32px;
             line-height: 40px;
         }
