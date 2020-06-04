@@ -1,5 +1,67 @@
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {  }
+@media (min-width: 576px) {  
+    body{
+        background-color: #000;
+        color: #fff;
+    }
+    div.main__header {
+        display: flex;
+        justify-content: center;
+        background: #1ED760;
+    }
+    h1.header__title {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 25px;
+        line-height: 24px;
+        text-transform: uppercase;
+        padding-top: 10px;
+    }
+    h1.header__user {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1px;
+        line-height: 24px;
+        color: #1ED760;
+    }
+    h1.subtitle-1 {
+        display: flex;
+        justify-content: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 24px;
+        text-transform: uppercase;
+        padding-top: 20px;
+    }
+    h2.subtitle-2 {
+        display: flex;
+        justify-content: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 27px;
+        text-align: center;
+        padding: 10px 0 10px 0;
+    }
+    caption.main-table__first-caption, p.button__show-more, div.main__footer {
+        color: #000;
+    }
+    td.second-tr, td.fourth-tr {
+        background-color: #282828;
+    }
+    td.second-tr, td.third-tr, td.fourth-tr, td.fifth-tr  {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    td#first-td {
+        padding-left: 20px;
+    }
+}
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {  }
@@ -20,6 +82,7 @@
             flex-direction: row;
             justify-content: space-between;
             padding: 30px;
+            background-color: #000;
         }
         header {
             border: 1px solid #fff;
@@ -27,6 +90,7 @@
             border-left: 0px;
             border-right: 0px;
             border-color: rgba(101, 101, 101, 0.33);
+            background-color: #000;
         }
         h1.header__title, .col-xl-auto {
             font-family: Righteous;
@@ -34,7 +98,8 @@
             font-weight: normal;
             font-size: 32px;
             line-height: 40px;
-            color: #fff;
+            text-transform: none;
+            padding-top: 0;
         }
         h1.header__user, .col-xl-auto {
             display: flex;
@@ -47,6 +112,7 @@
             width: 87px;
             height: 30px;
             padding-top: 15px;
+            color: #fff;
         }
         h1.header__title::before {
             content: url(https://cdn.discordapp.com/attachments/713453989517066250/716024824106844291/logo_header_blanco.png);
@@ -58,6 +124,7 @@
             flex-direction: row;
             justify-content: space-between;
             padding: 30px;
+            color: #fff;
         }
         p#footer__border {
             position: absolute;
@@ -104,6 +171,7 @@
             font-size: 38px;
             line-height: 46px;
             padding: 20px;
+            text-transform: none;
         }
         h2.subtitle-2 {
             display: flex;
@@ -115,9 +183,14 @@
             line-height: 27px;
             border-bottom: 0px;
             padding: 20px;
+            text-align: unset;
         }
         /* Fin Subtítulos */
         /* Tabla */
+        div.container {
+            display: flex;
+            justify-content: center;
+        }
         table.main-table, table.col-xl-9 {        
             position: absolute;
             display: flex;
@@ -179,6 +252,7 @@
             left: 44.28%;
             right: 48.76%;
             top: calc(50% - 22.09px/2 + 219.98px);
+            color: #fff;
         }
         p.button__show-more::after {
             content: url(https://cdn.discordapp.com/attachments/713453989517066250/716031399882260500/arrow_down1.png);

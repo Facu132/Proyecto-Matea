@@ -1,15 +1,159 @@
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {  }
+@media (min-width: 576px) {  
+    body{
+        background-color: #000;
+    }
+    h1{
+        display: flex;
+        justify-content: center;
+    }
+    .header__title {
+        color: #FFF;
+        text-decoration: none;
+    }
+    .login__box {
+        flex-direction: column;
+        background-color: #FFF;
+        margin: 10% 9px;
+        display: flex;
+        justify-content: center;
+        font-size: 15px;
+    }
+    form{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0 10%;
+    }
+}
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {  }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {  }
+@media (min-width: 992px) {  
+    body{
+        background-color: #FFF;
+        display: flex;
+        justify-content: center;
+    }
+    header {
+        border: 1px solid #fff;
+        border-top: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        border-color: rgba(101, 101, 101, 0.33);
+    }
+    .header__title {
+        color: #000;
+        text-decoration: none;
+    }
+    .header__title::before {
+        content: url(img/logo/logo_header_negro_small.png);
+    }
+    div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;    
+    }
+    div>h1{
+        justify-content: center;
+        align-items: center;
+        width: 279px;
+        height: 16px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    div>h1.form__login-top{   
+        display: flex;
+        justify-content: center;
+        color: #000000;
+    }
+    h1.form__login-bootom{
+        left: 437px;
+        top: 384px;
+        color: #1ED760;
+    }
+    .form__login-username{
+        width: 527px;
+        height: 57px;
+        left: 313px;
+        top: 170px;
+        color: #777;
+        background: #FFFFFF;
+    /* Dark 25% */
+        border: 1px solid rgba(31, 32, 65, 0.25);
+        box-sizing: border-box;
+        border-radius: 33px;
+    }
+    .form__login-pasword{
+        width: 527px;
+        height: 57px;
+        left: 313px;
+        top: 237px;
+        background: #FFFFFF;
+        color: #777;
+    /* Dark 25% */
+        border: 1px solid rgba(31, 32, 65, 0.25);
+        box-sizing: border-box;
+        border-radius: 33px;
+    }
+    .form__login-button-login{
+        width: 204px;
+        height: 38px;
+        left: 636px;
+        top: 319px;
+        font-weight: bold;
+        color: #FFFFFF;
+        background: #1ED760;
+        border-radius: 42px;
+    }
+    .form__login-line{
+        width: 527px;
+        height: 0px;
+        left: 313px;
+        top: 445px;
+        border: 1px solid rgba(101, 101, 101, 0.33);
+    }
+    .form__login-line-button{
+        display: flex;
+        justify-content: center;
+        width: 185px;
+        height: 16px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+        color: #000000;
+    }
+    .from__login-register{
+        width: 204px;
+        height: 38px;
+        left: 470px;
+        top: 824px;
+        font-weight: bold;
+        background: #FFFFFF;
+        border: 2px solid #000000;
+        box-sizing: border-box;
+        border-radius: 42px;
+    }
+    
+    /* End Form Login */
+}
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
 /* Form Login */
+body{
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+}
 header {
     border: 1px solid #fff;
     border-top: 0px;
@@ -20,6 +164,9 @@ header {
 .header__title {
     color: #000;
     text-decoration: none;
+}
+.header__title::before {
+    content: url(img/logo/logo_header_negro_small.png);
 }
 div{
     display: flex;

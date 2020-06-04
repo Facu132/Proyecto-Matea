@@ -14,6 +14,9 @@
         body {
             background-color: #000;
         }
+        h3 {
+            font-size: 16px;
+        }
         h1,h3 {
             color: #FFF;
         }
@@ -60,7 +63,8 @@
         div>.search-playlist {
             display: flex;
             justify-content: center;
-            position: absolute;
+        }
+        div>.search__music-img{
         }
         div>.input__search-playlist {
             display: flex;
@@ -71,8 +75,12 @@
             justify-content: space-between;
         }
         .container{
+            justify-content: space-evenly;
             flex-direction: row;
             flex-wrap: nowrap;
+        }
+        .search__music-img-hover:hover{
+            color: rgb(115, 206, 115);
         }
         p.search__music-img {
             font-family: Montserrat;
