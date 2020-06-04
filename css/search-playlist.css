@@ -66,6 +66,11 @@
         }
         div>.search__music-img{
         }
+        div>.input__search-playlist {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
         div>.row {
             justify-content: space-between;
         }
