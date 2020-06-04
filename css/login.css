@@ -7,6 +7,7 @@
         display: flex;
         justify-content: center;
     }
+    
     .header__title {
         color: #FFF;
         text-decoration: none;
@@ -17,13 +18,80 @@
         margin: 10% 9px;
         display: flex;
         justify-content: center;
-        font-size: 15px;
+        border-radius: 5px;
     }
     form{
         display: flex;
         justify-content: center;
         flex-direction: column;
         margin: 0 10%;
+    }
+    .form__login-top{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .form__login-username {
+        height: 57px;
+        border: 1px solid rgba(31, 32, 65, 0.25);
+        border-radius: 33px;
+        box-sizing: border-box;
+    }
+    .form__login-pasword{
+        height: 57px;
+        border: 1px solid rgba(31, 32, 65, 0.25);
+        border-radius: 33px;
+        box-sizing: border-box;
+    }
+    .form__login-button-remember-me{
+        width: 29px;
+        height: 29px;
+        background: #FFFFFF;        
+        border: 1px solid rgba(31, 32, 65, 0.25);
+        box-sizing: border-box;
+        border-radius: 4px;
+    }
+    .form_login-buttons-remember-login{
+        display: flex;
+        justify-content: center;
+    }
+    .form__login-button-login{
+        font-weight: bold;
+        color: #FFF;
+        justify-content: center;
+        height: 48px;
+        background: #1ED760;
+        border-radius: 42px;
+    }
+    .form__login-bootom{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+        color: #1ED760;
+    }
+    .form__login-line-button{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: center;
+        text-transform: uppercase;
+        color: rgba(31, 32, 65, 0.5);
+        margin-bottom: 10%;
+    }
+    .from__login-register{
+        font-weight: bold;
+        color: #000;
+        align-content: center;
+        height: 48px;
+        background: #FFF;
+        border: 0px solid #FFF;
+        margin-bottom: 5%;
     }
 }
 
