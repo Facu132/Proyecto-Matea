@@ -1,14 +1,115 @@
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {  
-
+    body {
+        background-color: #000;
+        color: #fff;
+    }
+    /* Header */
+    div.main__header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    a.header__login-register {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 20px;
+        text-transform: uppercase;
+    }
+    h1.header__title {
+        padding-top: 50px;
+    }
+    div.div-header__login-register {
+        position: absolute;
+        bottom: 130px;
+    }
+    a.header__register {
+        padding-bottom: 30px;
+    }
+    /* Fin Header */
+    /* Título */
+    h1.main__home-title {
+        display: flex;
+        justify-content: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 24px;
+        padding-bottom: 50px;
+    }
+    /* Fin Título */
+    h1.main__home-title {
+        padding-top: 30px;
+    }
+    /* Form */
+    div.home__input {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    /* Form: Buscar playlist */
+    input.input__search {
+        background: #FFFFFF;
+        width: 379px;
+        height: 62px;
+        border: 1px solid rgba(31, 32, 65, 0.25);
+        box-sizing: border-box;
+        border-radius: 33px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 24px;
+    }
+    /* Fin Form: Buscar playlist */
+    /* Form: Botón nueva playlist */
+    input.input__button {
+        background: #1ED760;
+        border-radius: 42px;
+        width: 379px;
+        height: 62px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 27px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    /* Fin Form: Botón nueva playlist */
+    /* Fin Form */
+    /* Footer */
+    div.main__footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    h1.footer__powered-by {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 24px;
+        position: absolute;
+        bottom: 30px;
+    }
+    h1.footer__powered-by::after {
+        content: url(https://cdn.discordapp.com/attachments/712706917365186570/716040727544725504/spotify_logo3.png);
+    }
+    h1.footer__designed-in, p#footer__border {
+        color: #000;
+    }
+    /* Fin Footer */
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {  
-    body.body {
-        background-color: #000;
-    }
-}
+@media (min-width: 768px) {  }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {  
@@ -23,6 +124,11 @@
                 flex-direction: row;
                 justify-content: space-between;
                 padding: 30px;
+            }
+            div.div-header__login-register {
+                position: absolute;
+                top: 30px;
+                right: 50px;
             }
             div>a {
                 display: block;
@@ -42,6 +148,7 @@
                 font-weight: normal;
                 font-size: 32px;
                 line-height: 40px;
+                padding-top: 0;
             }
             a.header__register {
                 font-family: Montserrat;
@@ -95,6 +202,7 @@
                 line-height: 24px;
                 position: absolute;
                 bottom: 30px;
+                color: #fff;
             }
             h1.footer__powered-by {
                 font-family: Montserrat;
@@ -105,6 +213,7 @@
                 position: absolute;
                 bottom: 30px;
                 right: 40px;
+                display: inline;
             }
             h1.footer__powered-by::after {
                 padding-left: 15px;
@@ -121,13 +230,16 @@
             font-size: 50px;
             line-height: 61px;
             padding-top: 80px;
+            padding-bottom: 0;
         }
+        /* Form */
         div.home__input {
             display: flex;
             flex-direction: column;
             align-items: center;
             padding: 15px;
         }
+        /* Form: Buscar playlist */
         input.input__search {
             background: #FFFFFF;
             border: 1px solid rgba(31, 32, 65, 0.25);
@@ -141,6 +253,8 @@
             font-size: 22px;
             line-height: 24px;
         }
+        /* Fin Form: Buscar playlist */
+        /* Form: Botón nueva playlist */
         input.input__button {
             width: 348px;
             height: 57px;
@@ -154,6 +268,8 @@
             text-transform: uppercase;
             color: #FFFFFF;
         }
+        /* Fin Form: Botón nueva playlist */
+        /* Fin Form */
         .footer__border{
             width: 100%;
             position: absolute;
@@ -175,6 +291,11 @@
             justify-content: space-between;
             padding: 30px;
         }
+        div.div-header__login-register {
+            position: absolute;
+            top: 30px;
+            right: 50px;
+        }
         div>a {
             display: block;
             color: #FFFFFF;
@@ -193,6 +314,7 @@
             font-weight: normal;
             font-size: 32px;
             line-height: 40px;
+            padding-top: 0;
         }
         a.header__register {
             font-family: Montserrat;
@@ -244,6 +366,7 @@
             line-height: 24px;
             position: absolute;
             bottom: 30px;
+            color: #fff;
         }
         h1.footer__powered-by {
             font-family: Montserrat;
