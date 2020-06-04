@@ -68,8 +68,18 @@
         box-sizing: border-box;
         border-radius: 50px;
     }
-    form>div{
-        display: inline-block;
+    div.form__gender {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    h1.form__register-sex {
+        padding: 0 20px 0 20px;
+    }
+    div.form__div-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .form__register-sex{
         font-family: Montserrat;
@@ -88,8 +98,7 @@
         border-radius: 42px;
     }
     .form__register-line-bottom{
-        color: #;
-        font-size: 1px;
+        font-size: 0px;
     }
     footer{
         color: #FFF;
