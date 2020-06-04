@@ -43,16 +43,68 @@
         text-transform: uppercase;
         color: rgba(31, 32, 65, 0.25)
     }
-    
+    .form__register-second-secion{
+        display: flex;
+        flex-direction: row;
+    }
+    .form__register-day{
+        width: 59px;
+        height: 56px;
+        border: 1px solid rgba(31, 32, 65, 0.25);
+        box-sizing: border-box;
+        border-radius: 50px;
+    }
+    .form__register-month{
+        width: 140px;
+        height: 56px;
+        border: 1px solid rgba(31, 32, 65, 0.25);
+        box-sizing: border-box;
+        border-radius: 50px;
+    }
+    .form__register-age{
+        width: 115px;
+        height: 56px;
+        border: 1px solid rgba(31, 32, 65, 0.25);
+        box-sizing: border-box;
+        border-radius: 50px;
+    }
+    form>div{
+        display: inline-block;
+    }
+    .form__register-sex{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+        color: rgba(31, 32, 65, 0.25);
+    }
     .form___register-primer-secion{
         margin: 0 10%;
     }
-    .form__register-second-secion{
-        flex-direction: row;
+    .form__register-button{
+        height: 48px;
+        background: #1ED760;
+        border-radius: 42px;
+    }
+    .form__register-line-bottom{
+        color: #;
+        font-size: 1px;
     }
     footer{
         color: #FFF;
         font-size: 1px;
+    }
+    .form__register-login{
+        background-color: #FFF;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 15px;
+        text-transform: uppercase;
+        color: rgba(31, 32, 65, 0.5);
+        border: 0 solid #FFF;
     }
 }
 
@@ -263,6 +315,7 @@ p#footer__border {
     border-right: 0px;
 }
 h1.footer__designed-in {
+    color: #000;
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
